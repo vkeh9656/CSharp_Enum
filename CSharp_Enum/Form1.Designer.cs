@@ -69,6 +69,7 @@
             this.btnResult.TabIndex = 3;
             this.btnResult.Text = "결과보기";
             this.btnResult.UseVisualStyleBackColor = true;
+            this.btnResult.Click += new System.EventHandler(this.btnResult_Click);
             // 
             // btnResult2
             // 
@@ -78,6 +79,7 @@
             this.btnResult2.TabIndex = 4;
             this.btnResult2.Text = "StringFormat Test";
             this.btnResult2.UseVisualStyleBackColor = true;
+            this.btnResult2.Click += new System.EventHandler(this.btnResult2_Click);
             // 
             // tboxResult
             // 
@@ -101,6 +103,7 @@
             this.Controls.Add(this.tboxName);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
